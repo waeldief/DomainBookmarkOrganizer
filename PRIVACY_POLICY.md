@@ -25,7 +25,7 @@ If you have any questions, feedback, or concerns regarding privacy or the functi
 - **Developer / Author Name:** W.Dief @ MWM World Co
 - **Developer Website:** https://www.mwmworld.com
 - **Support Email:** support@mwmworld.com
-- **Source Code / Repository:** https://github.com/yourusername/repository
+- **Source Code / Repository:** https://github.com/waeldief/DomainBookmarkOrganizer
 
 ---
 
