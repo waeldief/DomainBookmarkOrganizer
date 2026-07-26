@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            width: 300px;
+            padding: 15px;
+            margin: 0;
+            background-color: #f9f9f9;
+        }
+
+        .header-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            margin: 0;
+            color: #333;
+            font-size: 15px;
+        }
+
+        .lang-select {
+            padding: 3px 6px;
+            font-size: 12px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+        }
+
+        label {
+            font-size: 13px;
+            color: #555;
+            display: block;
+            margin-bottom: 6px;
+        }
+
+        select.full-width {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 12px;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #1a73e8;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #1557b0;
+        }
+
+        #status {
+            margin-top: 12px;
+            font-size: 12px;
+            text-align: center;
+            min-height: 18px;
+        }
+    </style>
+</head>
+
+<body dir="ltr">
+    <div class="header-row">
+        <h3 id="uiTitle">Bookmark Organizer</h3>
+        <select id="langSelect" class="lang-select">
+            <option value="en">English</option>
+            <option value="ar">العربية</option>
+        </select>
+    </div>
+
+    <label for="folderSelect" id="uiFolderLabel">Select folder to organize:</label>
+    <select id="folderSelect" class="full-width">
+        <option value="" id="uiLoading">Loading folders...</option>
+    </select>
+
+    <button id="organizeBtn">Organize Selected Folder</button>
+
+    <div id="status"></div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
