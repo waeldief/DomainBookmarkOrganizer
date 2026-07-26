@@ -34,8 +34,6 @@ DomainBookmarkOrganizer/
     ├── screenshot1_en.png
     └── screenshot2_ar.png
 
-└── screenshot2_ar.png
-
 ```
 
 ##🚀 Installation & Local Testing
@@ -43,7 +41,7 @@ DomainBookmarkOrganizer/
 
 ```bash
 
-git clone [https://github.com/waeldief/DomainBookmarkOrganizer.git](https://github.com/waeldief/DomainBookmarkOrganizer.git)
+git clone https://github.com/waeldief/DomainBookmarkOrganizer.git
 
 ```
 2. Open Google Chrome and navigate to:
