@@ -12,6 +12,7 @@ A lightweight, privacy-focused Chrome Extension that automatically organizes you
 
 - **Custom Folder Selection:** Choose any specific folder or sub-folder from your existing Chrome bookmarks tree via a dynamic dropdown menu.
 - **Smart Domain Grouping:** Automatically extracts host domains (e.g., `github.com`, `google.com`) and creates neat sub-folders to group your links.
+- **Remove Duplicate(s) Links:** Switch Toggle to remove duplicate(s) links in folder.
 - **Bilingual Support (EN / AR):** Default English interface with a seamless toggle for Arabic (`RTL` layout, mirrored UI, and language preference saved locally).
 - **100% Private & Local:** Runs completely within your browser. Zero remote servers, zero tracking, and no external data calls.
 - **Built for Manifest V3:** fully compliant with modern Chrome Extension standards and security guidelines.
@@ -58,6 +59,7 @@ chrome://extensions/
 1. Click the extension icon in your Chrome toolbar.
 2. Select your preferred language (English or العربية).
 3. Pick the target folder you want to organize from the dropdown list.
+4. Select (Switch) if you want to remove duplicate(s) links in folder.
 4. Click Organize Selected Folder.
 5. The extension reads the bookmarks in that folder, groups them by domain name, creates domain sub-folders, and moves the corresponding links inside.
 
